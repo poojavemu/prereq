@@ -1,0 +1,193 @@
+#rectangle {
+	width:830px;
+	height:1300px;
+	background:#FFF7E5;
+	/*margin-left: 320px;
+	margin-top:-10px;*/
+	position: relative;
+	margin:-100 auto;
+}
+#logo {
+	margin-bottom: -20px;
+}
+body {
+	background-color:#70A9AD;
+	text-align:center;
+}
+
+#gwc {
+	width: 300px;
+	height:300px;
+	margin-left: 700px;
+}
+
+#statement{
+	color:#92CCB4;
+	font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	line-height: 24.3999996185303px;
+	background-color:#70A9AD;
+}
+h1 {
+	font-family: 'Amatic SC';
+	color: #FFF7E5; 
+	margin-top:-30px;
+	font-size: 40px;
+	font-style: normal;
+	font-weight: normal;
+}
+p {
+	font-family: 'Enriqueta';
+	color:#92CCB4;
+	font-size:40px;
+	margin-top:-20px;
+}
+#mission {
+	font-family: 'Enriqueta';
+	color:#92CCB4;
+	font-size:20px;
+	text-align:center;
+	margin-right:40px;
+}
+#hr {
+	background: #92CCB4;
+	margin-left: 15em;
+	margin-right: 18em;
+	margin-bottom: 0px;
+	margin-top:-40px;
+	width:22em;
+	height:2px;
+}
+
+#gwc {
+	margin-top: -120px;
+	margin-bottom: -40px;
+	margin-left: 270px;
+}
+
+#stats {
+	font-family: 'Enriqueta';
+	color:#92CCB4;
+	font-size:18px;
+	text-align:left;
+	margin-left: 20px;
+	
+}
+
+#morestats {
+	font-family: 'Enriqueta';
+	color:#92CCB4;
+	font-size:18px;
+	text-align: left;
+}
+
+#usa {
+	 width: 300px
+	 height: 200px 
+}	
+
+#piechart {
+	width: 300px;
+	height: 200px; 
+	margin-top: 0px;
+	margin-left: 530px;
+}
+
+#WOOT {
+	margin-bottom:0px;
+	font-size:20px;
+}
+
+#WOOT2 {
+	margin-top: -215px;
+	margin-right: 300px;
+}
+
+#references {
+	font-size:15px;
+}
+
+#graphs {
+	font-family: 'Enriqueta';
+	color:#92CCB4;
+	font-size:18px;
+	margin-right:20px;
+	text-align: left;
+	margin-top:-30px;
+}
+
+
+#sse1
+{
+    /*You can decorate the menu's container, such as adding background images through this block*/
+    background-color: #A4B39B;
+    height: 38px;
+    width: 700;
+    margin-left: 360;
+    padding: 15px;
+    border-radius: 3px;
+    box-sizing: content-box;
+    margin-top:-10px;
+}
+#sses1
+{
+    margin:0 auto;/*This will make the menu center-aligned. Removing this line will make the menu align left.*/
+}
+
+#sses1 ul 
+{ 
+    position: relative;
+    list-style-type: none;
+    padding:0;margin:0;
+    border-bottom:solid 1px #A4B39B;
+}
+
+#sses1 li
+{
+    float:left;
+    list-style-type: none;
+    padding:0;margin:0;background-image:none;
+}
+
+/*CSS for background bubble*/
+#sses1 li.highlight
+{
+    background-color:#A4B39B;
+    top:36px;
+    height:2px;
+    border-bottom:solid 1px #A4B39B;
+    /*z-index: 1; */
+    position: relative;
+    overflow:hidden;
+}
+#sses1 li a
+{
+    box-sizing: content-box;
+    height:30px;
+    padding-top: 8px;
+    margin-top:-10px;/*used to adjust the distance between each menu item. Now the distance is 20+20=40px.*/
+    color: #FFF7E5;
+    font-family: 'Amatic SC'; 
+    font-size:40px;
+    text-align: center;
+    text-decoration: none;
+	margin-left: 120px;
+    display: block;
+    position: relative;
+    z-index: 2;
+}
+li {
+	color:#92CCB4
+}
+#hr2 {
+	background: #92CCB4;
+	margin-left: 15em;
+	margin-right: 18em;
+	margin-bottom:0px;
+	margin-top: -60px;
+	width:22em;
+	height:2px;
+}
