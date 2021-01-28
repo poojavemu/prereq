@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+     html,body,#map-canvas { height: 500px; width: 500px; margin: 0; padding: 0; }
+}
+    </style>
+
+          <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBMxOEf2-QfdmwQs64jK70t9uD0yK9HAVs"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+      
+      
+    <script src = "tabletop.js" > </script>
+  	<script src = "gmaps.js" > </script>
+  </head>
+  <body>
+ 
+<div id="map-canvas"></div>
+ <select id="type" onchange="filterMarkers(this.value);">
+    <option value="">Please select category</option>
+    <option value="STI">STI</option>
+    <option value="HIV">HIV</option>
+    <option value="AIDS">AIDS</option>
+    <option value="CONDOMS">CONDOMS</option>
+    <option value="COUNSELING">COUNSELING</option>
+    <option value="PREGNANCY">PREGNANCY</option>
+</select>
+  </body>
+</html>
